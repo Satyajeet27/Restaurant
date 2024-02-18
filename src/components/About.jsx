@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className='about-img-bg rounded-b-3xl'>
+    <div className='about-img-bg rounded-b-3xl overflow-x-hidden'>
         <img src="/assets/vector-wave.png" className='sm:min-w-max' alt="" srcset="" />
         <div className="container">
         <h2 className='text-4xl text-slate-600 font-semibold text-center pb-6'>About Us</h2>
